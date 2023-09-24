@@ -71,3 +71,134 @@ a {
 	padding-top: 35px;
 	padding-bottom: 35px;
 }
+/* - min-width: 1200 */
+@media (min-width: 1200px) {
+	.container {
+		width: 1300px;
+	}
+}
+
+/* - max-width: 1200px */
+@media (max-width: 1200px) {
+	/* - Foote Main */
+	.footer-main .recent-post-widget .recent-content h3 {
+		padding-right: 30px;
+	}
+}
+
+/* - min-width: 992 to max-width: 1199 */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	/* - Header Main */
+	.top-header::after {
+		width: 705px;
+	}
+	/* - Foote Main */
+	.address-box .address-content p {
+		font-size: 14px;
+	}
+}
+
+/* - max-width: 991 */
+@media (max-width: 991px) {
+	/* - Header Main */
+	.header-main .navbar .col-md-9::after,
+	.header-main .navbar .col-md-9::before {
+		display: none;
+	}
+	.top-header {
+		padding: 10px 0;
+		margin-bottom: 10px;
+	}
+	.top-header::after {
+		display: none;
+	}
+	.header-main .search-block {
+		position: absolute;
+		top: 45px;
+		left: -30px;
+	}
+	.menu-search .sb-icon-search, 
+	.menu-search .sb-search-submit {
+		top: 36px;
+	}
+	.menu-search .sb-search.sb-search-open .sb-search-input {
+		top: 85px;
+	}
+	/* - Footer Main */
+	.footer-main aside.col-md-4::after {
+		display: none;
+	}
+	.footer-main .ftr-widget:last-of-type {
+		padding-left: 0;
+	}
+	.footer-main .ftr-widget {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.address-box .address-content {
+		padding-left: 46px;
+	}
+	.address-box .address-content span {
+		left: 0;
+	}
+}
+
+/* - max-width: 767 */
+@media (max-width: 767px) {	
+	.address-box .col-xs-6:nth-child(2n+1) {
+		clear: left;
+	}
+}
+
+/* -  max-width: 639 */
+@media (max-width: 639px) {
+	/* - Header Main  */
+	.top-header > h3 {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.top-header ul {
+		float: none !important;
+		text-align: center;
+	}
+	.header-main .search-block {
+		position: absolute;
+		top: 88px;
+		left: -40px;
+	}
+	/* - Footer Main */
+	.footer-main .col-xs-6.ftr-widget {
+		width: 100%;
+		padding-left: 15px;
+	}
+	.footer-main .subscribe-widget {
+		text-align: left;
+	}
+	.footer-main .ftr-widget:first-of-type {
+		padding-left: 15px;
+	}
+}
+
+/* -  max-width: 479 */
+@media (max-width: 479px) {
+	/* - Header Main */
+	.menu-search .sb-search.sb-search-open .sb-search-input {
+		width: 200px;
+	}
+	/* - Page Banner */
+	.banner-content > img {
+		padding: 0 15px;
+	}
+	/* - Footer Main */
+	.address-box {
+		margin-top: 0;
+	}
+	.footer-main .ftr-widget {
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	.bottom-footer .col-xs-6 {
+		width: 100%;
+	}
+}
