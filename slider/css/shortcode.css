@@ -52,7 +52,7 @@
 	text-align: center;
 }
 .photo-slider .item::before {
-	background-color: rgba(30, 30, 30, 0.63);
+/*	background-color: rgba(30, 30, 30, 0.63);*/
     bottom: 0;
     content: "";
     display: inline-block;
